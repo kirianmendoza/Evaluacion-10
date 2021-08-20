@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main(void){
+
+	
+	
+    int x, cubito;
+	clrscr();
+	printf("MUESTRA EL CUBO DE UN NUMERO*\n\n");
+	printf("Introduzca un numero: ");
+	scanf("%d", &x);
+	if(x==15)
+	    {printf("es Quince.");}
+	else
+	  
+	    {
+	    cubito=x*x*x;
+	    printf("Su cubo es %d", cubito);
+	    }
+	getch();
+
+}
